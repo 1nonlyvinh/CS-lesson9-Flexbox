@@ -2,8 +2,27 @@
 
 /* 1. Select the "flex-container" class and apply Flexbox */
 
+.flex-container {
+    display: flex;
+    height: 150px;
+    background-color:bisque; 
+    justify-content: center;
+}
+
     /* Apply display property with value flex */
+
+.box1, .box2, .box3{
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid black;
+}
     
+
 
     /* Set a background color */
    
